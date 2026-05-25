@@ -7,7 +7,7 @@ This repo is intended to be run from a Proxmox host and can work for:
 - a multi-node Proxmox cluster
 
 **Run this first**, before setting up the monitoring stack. It installs the required packages and configures each Proxmox node so that the monitoring VM can read and communicate with the metrics output from your Proxmox hosts.
-
+If this is a cluster you will only need to do this on one host
 ---
 
 ## Current Scope
